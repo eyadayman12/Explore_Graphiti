@@ -1,0 +1,122 @@
+[
+  {
+    "relType": ":`RELATES_TO`",
+    "propertyName": "uuid",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "relType": ":`RELATES_TO`",
+    "propertyName": "name",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "relType": ":`RELATES_TO`",
+    "propertyName": "created_at",
+    "propertyTypes": [
+      "DateTime"
+    ],
+    "mandatory": true
+  },
+  {
+    "relType": ":`RELATES_TO`",
+    "propertyName": "valid_at",
+    "propertyTypes": [
+      "DateTime"
+    ],
+    "mandatory": false
+  },
+  {
+    "relType": ":`RELATES_TO`",
+    "propertyName": "invalid_at",
+    "propertyTypes": [
+      "DateTime"
+    ],
+    "mandatory": false
+  },
+  {
+    "relType": ":`RELATES_TO`",
+    "propertyName": "group_id",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "relType": ":`RELATES_TO`",
+    "propertyName": "expired_at",
+    "propertyTypes": [
+      "DateTime"
+    ],
+    "mandatory": false
+  },
+  {
+    "relType": ":`RELATES_TO`",
+    "propertyName": "fact",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "relType": ":`RELATES_TO`",
+    "propertyName": "fact_embedding",
+    "propertyTypes": [
+      "FloatArray"
+    ],
+    "mandatory": true
+  },
+  {
+    "relType": ":`RELATES_TO`",
+    "propertyName": "source_node_uuid",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "relType": ":`RELATES_TO`",
+    "propertyName": "target_node_uuid",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "relType": ":`RELATES_TO`",
+    "propertyName": "episodes",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": true
+  },
+  {
+    "relType": ":`MENTIONS`",
+    "propertyName": "uuid",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "relType": ":`MENTIONS`",
+    "propertyName": "created_at",
+    "propertyTypes": [
+      "DateTime"
+    ],
+    "mandatory": true
+  },
+  {
+    "relType": ":`MENTIONS`",
+    "propertyName": "group_id",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  }
+]
