@@ -1,0 +1,84 @@
+[
+  {
+    "nodeLabels": [
+      "Episodic"
+    ],
+    "properties": [
+      "uuid",
+      "name",
+      "created_at",
+      "valid_at",
+      "group_id",
+      "content",
+      "source",
+      "source_description",
+      "entity_edges"
+    ],
+    "types": [
+      [
+        "String"
+      ],
+      [
+        "String"
+      ],
+      [
+        "DateTime"
+      ],
+      [
+        "DateTime"
+      ],
+      [
+        "String"
+      ],
+      [
+        "String"
+      ],
+      [
+        "String"
+      ],
+      [
+        "String"
+      ],
+      [
+        "StringArray"
+      ]
+    ]
+  },
+  {
+    "nodeLabels": [
+      "Entity"
+    ],
+    "properties": [
+      "uuid",
+      "name",
+      "created_at",
+      "group_id",
+      "summary",
+      "name_embedding",
+      "labels"
+    ],
+    "types": [
+      [
+        "String"
+      ],
+      [
+        "String"
+      ],
+      [
+        "DateTime"
+      ],
+      [
+        "String"
+      ],
+      [
+        "String"
+      ],
+      [
+        "FloatArray"
+      ],
+      [
+        "StringArray"
+      ]
+    ]
+  }
+]
