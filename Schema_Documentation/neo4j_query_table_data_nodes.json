@@ -1,0 +1,178 @@
+[
+  {
+    "nodeType": ":`Episodic`",
+    "nodeLabels": [
+      "Episodic"
+    ],
+    "propertyName": "uuid",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`Episodic`",
+    "nodeLabels": [
+      "Episodic"
+    ],
+    "propertyName": "name",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`Episodic`",
+    "nodeLabels": [
+      "Episodic"
+    ],
+    "propertyName": "created_at",
+    "propertyTypes": [
+      "DateTime"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`Episodic`",
+    "nodeLabels": [
+      "Episodic"
+    ],
+    "propertyName": "valid_at",
+    "propertyTypes": [
+      "DateTime"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`Episodic`",
+    "nodeLabels": [
+      "Episodic"
+    ],
+    "propertyName": "group_id",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`Episodic`",
+    "nodeLabels": [
+      "Episodic"
+    ],
+    "propertyName": "content",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`Episodic`",
+    "nodeLabels": [
+      "Episodic"
+    ],
+    "propertyName": "source",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`Episodic`",
+    "nodeLabels": [
+      "Episodic"
+    ],
+    "propertyName": "source_description",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`Episodic`",
+    "nodeLabels": [
+      "Episodic"
+    ],
+    "propertyName": "entity_edges",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`Entity`",
+    "nodeLabels": [
+      "Entity"
+    ],
+    "propertyName": "uuid",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`Entity`",
+    "nodeLabels": [
+      "Entity"
+    ],
+    "propertyName": "name",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`Entity`",
+    "nodeLabels": [
+      "Entity"
+    ],
+    "propertyName": "created_at",
+    "propertyTypes": [
+      "DateTime"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`Entity`",
+    "nodeLabels": [
+      "Entity"
+    ],
+    "propertyName": "group_id",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`Entity`",
+    "nodeLabels": [
+      "Entity"
+    ],
+    "propertyName": "summary",
+    "propertyTypes": [
+      "String"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`Entity`",
+    "nodeLabels": [
+      "Entity"
+    ],
+    "propertyName": "name_embedding",
+    "propertyTypes": [
+      "FloatArray"
+    ],
+    "mandatory": true
+  },
+  {
+    "nodeType": ":`Entity`",
+    "nodeLabels": [
+      "Entity"
+    ],
+    "propertyName": "labels",
+    "propertyTypes": [
+      "StringArray"
+    ],
+    "mandatory": true
+  }
+]
