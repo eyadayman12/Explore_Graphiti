@@ -1,0 +1,76 @@
+[
+  {
+    "relType": ":`RELATES_TO`",
+    "properties": [
+      "uuid",
+      "name",
+      "created_at",
+      "valid_at",
+      "invalid_at",
+      "group_id",
+      "expired_at",
+      "fact",
+      "fact_embedding",
+      "source_node_uuid",
+      "target_node_uuid",
+      "episodes"
+    ],
+    "types": [
+      [
+        "String"
+      ],
+      [
+        "String"
+      ],
+      [
+        "DateTime"
+      ],
+      [
+        "DateTime"
+      ],
+      [
+        "DateTime"
+      ],
+      [
+        "String"
+      ],
+      [
+        "DateTime"
+      ],
+      [
+        "String"
+      ],
+      [
+        "FloatArray"
+      ],
+      [
+        "String"
+      ],
+      [
+        "String"
+      ],
+      [
+        "StringArray"
+      ]
+    ]
+  },
+  {
+    "relType": ":`MENTIONS`",
+    "properties": [
+      "uuid",
+      "created_at",
+      "group_id"
+    ],
+    "types": [
+      [
+        "String"
+      ],
+      [
+        "DateTime"
+      ],
+      [
+        "String"
+      ]
+    ]
+  }
+]
